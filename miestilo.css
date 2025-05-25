@@ -142,3 +142,12 @@ p {
 article ul p:hover {
      color: #bb347e;
   }
+
+.menu {
+  color: #BEE9E8;
+  background-color: #333333;
+  max-width: 900px; 
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  }

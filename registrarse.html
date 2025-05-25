@@ -53,42 +53,45 @@
 </header>
 <main>
     <section>
-        <h2>¿Por qué aprender inglés?</h2>
-            <div class= "Clase1">
-                <p> 
-El inglés no solo abre puertas en el mundo laboral, permitiendo acceder a mejores oportunidades y comunicarse en entornos profesionales, sino que también aporta beneficios a la salud. Estudios demuestran que aprender un segundo idioma mejora la memoria, la concentración y la agilidad mental. Además, entender inglés facilita el acceso a información actualizada en medicina, tecnología y ciencia, contribuyendo al bienestar personal y profesional. </p>
-                <p> Más de 10 años de experiencia nos avala. Las clases son flexibles y se ajustan a tu comidad, presenciales o virtuales. </p>
-            </div>
-        </section>
-    <div>
-        <img class="imagen" src="./img/chico.png" alt="Integrante del Instituto Future">
-    </div>
-    <div class= "Clase2">
-        <p> Te esperamos personalmente en nuestro local ubicado en calle Sarmiento 342. Nos encontramos en pleno centro de la ciudad de Curuzú Cuatiá, Corrientes.</p>
-        <p>También podés llamarnos al 3774-500205. </p>
-    </div>
-    <section>
-        <h2>Conocenos:</h2>
-            <article>
-                 <ul>
-                <p>Prof. Sergio Leonardo Ayala</p>
-                <p>Prof. Alalda cañetiña añala</p>
-                <p>Prof. Patricio Emiliano Ayala</p>
-                <p>Prof. Daniela del Valle Cañete</p>
-                </ul>
-            </article>
-    </section>
-    <section>
-        <h2>Contacto</h2>
-            <h3>Escribinos y resolvemos tus dudas:</h3>
-                <form>
-                    <p><input type="text" placeholder="Nombre"></p>
-                    <p><input type="email" placeholder="Correo electrónico"></p>
-                    <p><textarea placeholder="Mensaje"></textarea></p>
-                    <p><input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar"></p>
-                </form>
-    </section>
+ <form class="row g-3 menu">
+   <div class="col-12">
+            <h2>Registrarse</h2>
+    <label for="inputAddress" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Apellido</label>
+    <input type="text" class="form-control" id="inputSurname" placeholder="Apellido">
+  </div>
+    <div class="col-12">
+    <label for="inputAddress2" class="form-label">Usuario</label>
+    <input type="text" class="form-control" id="inputSurname" placeholder="Usuario (Puede contener números y signos)">
+  </div>
+  <div class="col-md-6 ">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="example@gmail.com">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4" placeholder="contraseña (mínimo 5 caracteres)">
+  </div>
+ 
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Ciudad</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Código Postal</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+  </div>
+    <div class="col-12">
+    <button type="submit" class="btn btn-primary">Registrarse</button>
+    <button type="button" class="btn btn-secondary ms-2" onclick="document.querySelector('form').reset();">Cancelar</button>
+  </div>
+</form>    
+</section>
 </main>
 <footer>
     <div class="logos">
@@ -96,7 +99,7 @@ El inglés no solo abre puertas en el mundo laboral, permitiendo acceder a mejor
         <a href="https://www.facebook.com" target="_blank"> <img class="logos" src="./img/facebook.png" alt="Facebook"></a>
         <a href="https://mail.google.com/" target="_blank"> <img class="logos" src="./img/gmail.png" alt="gmail"></a> 
     </div>
-        <p class="pie">Derechos de autor &copy; 2025 Future  - Institute of English -  Todos los derechos reservados - Creado por Sergio Ayala</p>
+        <p class="pie">Derechos reservados &copy; 2025 Future  - Institute of English - Creado por Sergio Ayala</p>
 </footer>
 </body>
 </html>

@@ -51,35 +51,48 @@
 </nav>
 </header>
 <main>
-    <div>
-        <img class="imagen" src="./img/chico.png" alt="Integrante del Instituto Future">
+       <section class="container-fluid mt-5">
+  <div class="row g-4 align-items-center menu">
+        <div class="col-md-6 text-center">
+      <img src="./img/logo.png" alt="instituto Future" class="img-fluid" style="max-height: 450px;">
     </div>
-    <div class= "Clase2">
-        <p> Te esperamos personalmente en nuestro local ubicado en calle Sarmiento 342. Nos encontramos en pleno centro de la ciudad de Curuzú Cuatiá, Corrientes.</p>
-        <p>También podés llamarnos al 3774-500205. </p>
+        <div class="col-md-6">
+      <form class="px-4 py-3">
+        <h2>Log in</h2>
+                <div class="mb-3">
+          <label for="exampleDropdownFormEmail1" class="form-label">Usuario</label>
+          <input type="text" class="form-control" id="exampleDropdownFormEmail1" placeholder="Usuario">
+        </div>
+        <div class="mb-3">
+          <label for="exampleDropdownFormEmail1" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@gmail.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleDropdownFormPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+          <label class="form-check-label" for="dropdownCheck">
+            Recordarme
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+        <div class="dropdown-divider my-3"></div>
+        ¿Nuevo?<a class="dropdown-item" href="registrarse.html"> Registrarse aquí</a>
+      </form>
     </div>
-    <section>
-        <h2>Conocenos:</h2>
-            <article>
-                <h3>Docentes y Personal administrativo</h3>
-                <p>Prof. Sergio Leonardo Ayala</p>
-                <p>Prof. Javier Andrés Vargas</p>
-                <p>Prof. Patricio Emiliano Cañete</p>
-                <p>Prof. Sara Jessica Parker</p>
-                <p>Secretaria Liliana García</p>
-            </article>
-    </section>
-    <section>
-        <h2>Contacto</h2>
-            <h3>Escribinos y resolvemos tus dudas:</h3>
-                <form>
-                    <p><input type="text" placeholder="Nombre"></p>
-                    <p><input type="email" placeholder="Correo electrónico"></p>
-                    <p><textarea placeholder="Mensaje"></textarea></p>
-                    <p><input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar"></p>
-                </form>
-    </section>
+
+
+  </div>
+</section>
+
+
+
+
+
+
+
 </main>
 <footer>
     <div class="logos">
@@ -87,7 +100,7 @@
         <a href="https://www.facebook.com" target="_blank"> <img class="logos" src="./img/facebook.png" alt="Facebook"></a>
         <a href="https://mail.google.com/" target="_blank"> <img class="logos" src="./img/gmail.png" alt="gmail"></a> 
     </div>
-        <p class="pie">Derechos de autor &copy; 2025 Future  - Institute of English -  Todos los derechos reservados - Creado por Sergio Ayala</p>
+        <p class="pie">Derechos reservados &copy; 2025 Future  - Institute of English - Creado por Sergio Ayala</p>
 </footer>
 </body>
 </html>
