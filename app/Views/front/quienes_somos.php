@@ -11,7 +11,7 @@
     <div class="card h-100 bg-subtle">
       <img src="./assets/img/profesor.png" class="card-img-top bg-secondary" alt="Prof Sergio Ayala">
       <div class="card-body bg-light ">
-        <h5 class="card-title">Prof Sergio Ayala</h5>
+        <h5 class="card-title">Prof. Sergio Ayala</h5>
         <p class="card-text text-black">Sergio es profesor de inglés con más de 15 años de experiencia en la enseñanza del idioma y en la gestión educativa. Actualmente se desempeña como Director Académico del instituto, supervisando los programas de estudio, coordinando al equipo docente y asegurando que cada estudiante reciba una formación de calidad. Su liderazgo y compromiso han sido claves en el crecimiento y consolidación del instituto a lo largo de estos diez años.</p>
       </div>
       <div class="card-footer bg-secondary">
@@ -23,7 +23,7 @@
     <div class="card h-100">
       <img src="./assets/img/profesora.png" class="card-img-top bg-secondary" alt="Daniela Mendez">
       <div class="card-body">
-        <h5 class="card-title">Prof Daniela Mendez</h5>
+        <h5 class="card-title">Prof. Daniela Mendez</h5>
         <p class="card-text text-black">Daniela es profesora y especialista en preparación para exámenes internacionales como Cambridge y TOEFL. En su rol de coordinadora, organiza las instancias de evaluación, asesora a estudiantes y familias sobre los niveles adecuados y brinda talleres de apoyo para quienes desean rendir certificaciones oficiales. Su dedicación y conocimiento aseguran que cada alumno reciba el acompañamiento necesario en su camino hacia la certificación.</p>
       </div>
       <div class="card-footer  bg-secondary">
@@ -35,7 +35,7 @@
     <div class="card h-100">
       <img src="./assets/img/chica.png" class="card-img-top bg-secondary" alt="nativa">
       <div class="card-body">
-        <h5 class="card-title">Prof Emily Johnson</h5>
+        <h5 class="card-title">Prof. Emily Johnson</h5>
         <p class="card-text text-black">Emily es estudiante avanzada para ser docente, es nativa de Londres. En el instituto, trabaja especialmente con los grupos más pequeños, brindando clases dinámicas, lúdicas y en contacto constante con el idioma auténtico. Su calidez, creatividad y pronunciación nativa hacen que los más jóvenes aprendan inglés de forma natural y divertida desde sus primeros pasos.</p>
       </div>
       <div class="card-footer  bg-secondary">

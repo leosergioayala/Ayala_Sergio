@@ -9,19 +9,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-          <a  aria-current="page" href="principal">Inicio</a>
+          <a  aria-current="page" href="<?php echo base_url ('principal')?>">Inicio</a>
         </li>
                 <li class="nav-item">
-          <a aria-current="nav-link" href="quienes_somos">Quienes somos</a>
+          <a aria-current="nav-link" href="<?php echo base_url ('quienes_somos')?>">Quienes somos</a>
         </li>
                 <li class="nav-item">
-          <a aria-current="nav-link" href="acerca_de">Acerca de</a>
+          <a aria-current="nav-link" href="<?php echo base_url ('acerca_de')?>">Acerca de</a>
         </li>
                 <li class="nav-item">
-          <a aria-current="nav-link" href="registrarse">Registrarse</a>
+          <a aria-current="nav-link" href="<?php echo base_url ('registrarse')?>">Registrarse</a>
         </li>
                 <li class="nav-item">
-          <a  aria-current="nav-link" href="login">Login</a>
+          <a  aria-current="nav-link" href="<?php echo base_url ('login')?>">Login</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
